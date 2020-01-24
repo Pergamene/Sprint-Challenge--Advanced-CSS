@@ -1,5 +1,5 @@
 // Mixins Here
-.btn(@bg-color, @color) {
+.btn(@bg-color:@btn-bg-color, @color:@porcelain, @border:@btn-border) {
   background-color: @bg-color;
   color: @color;
   font-size: 2rem;
@@ -7,4 +7,5 @@
   padding: 8px 0;
   border-radius: 5px;
   width: 30%;
+  border: @border;
 }
