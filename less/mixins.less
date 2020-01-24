@@ -1,1 +1,29 @@
 // Mixins Here
+.btn(@width: 30%, @vert-padding: 8px) {
+  background-color: @btn-bg-color;
+  color: @porcelain;
+  font-size: 2rem;
+  text-align: center;
+  padding: @vert-padding 0;
+  border-radius: 5px;
+  width: @width;
+  border: @btn-border;
+  cursor: pointer;
+}
+
+.btn-hover(@width: 30%, @vert-padding: 8px) {
+  background-color: @wild-sand;
+  color: @btn-bg-color;
+  font-size: 2rem;
+  text-align: center;
+  padding: @vert-padding 0;
+  border-radius: 5px;
+  width: @width;
+  border: @btn-hover-border;
+  cursor: pointer;
+}
+
+.phone-img-fill(@side-padding: 2.5%) {
+  flex: 1;
+  margin: 20px @side-padding;
+}
