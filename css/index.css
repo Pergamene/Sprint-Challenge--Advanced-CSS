@@ -299,11 +299,24 @@ footer {
   color: #22283A;
   font-size: 2rem;
   text-align: center;
-  padding: 25px 0;
+  padding: 8px 0;
   border-radius: 5px;
-  width: 100%;
+  width: 30%;
   border: 1px solid #22283A;
   cursor: pointer;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-text .btn:hover {
+    background-color: #F6F6F6;
+    color: #22283A;
+    font-size: 2rem;
+    text-align: center;
+    padding: 25px 0;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #22283A;
+    cursor: pointer;
+  }
 }
 .home .walk .walk-img {
   width: 46%;
@@ -388,11 +401,24 @@ footer {
   color: #22283A;
   font-size: 2rem;
   text-align: center;
-  padding: 25px 0;
+  padding: 8px 0;
   border-radius: 5px;
-  width: 100%;
+  width: 50%;
   border: 1px solid #22283A;
   cursor: pointer;
+}
+@media (max-width: 500px) {
+  .home .post .post-text .btn:hover {
+    background-color: #F6F6F6;
+    color: #22283A;
+    font-size: 2rem;
+    text-align: center;
+    padding: 25px 0;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #22283A;
+    cursor: pointer;
+  }
 }
 .home .post .post-img {
   width: 46%;

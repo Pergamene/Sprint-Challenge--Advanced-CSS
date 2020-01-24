@@ -94,7 +94,11 @@
         }
 
         &:hover {
-          .btn(@wild-sand, @btn-bg-color, @btn-hover-border, 100%, 25px);
+          .btn(@wild-sand, @btn-bg-color, @btn-hover-border);
+
+          @media @phone {
+            .btn(@wild-sand, @btn-bg-color, @btn-hover-border, 100%, 25px);
+          }
         }
       }
     }
