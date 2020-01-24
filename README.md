@@ -46,7 +46,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 4. How would you describe preprocessing to someone new to CSS?
 
-```Preprocessing is CSS with added functionality built in, like the ability to nest, make variables and design functions.  It must be compiled into CSS for the browser to read.```
+```Preprocessing is CSS with added functionality built in, like the ability to nest, make variables, and parametric mixins.  It must be compiled into CSS for the browser to read.```
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
